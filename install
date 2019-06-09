@@ -1,0 +1,3 @@
+#!/bin/bash
+./scripts/install_vim.sh
+./scripts/install_tmux.sh

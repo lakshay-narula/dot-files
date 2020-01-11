@@ -15,5 +15,5 @@ ln -s `pwd`/vim-spell-en.utf-8.add $HOME/.vim-spell-en.utf-8.add
 
 # create undo directory
 if [ ! -d "$HOME/.vim/undo" ]; then
-  mkdir $HOME/.vimrc/undo
+  mkdir $HOME/.vim/undo
 fi

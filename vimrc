@@ -10,6 +10,7 @@ set wildignorecase
 
 " file to store custom spellings
 set spellfile=~/.vim-spell-en.utf-8.add
+exec 'silent mkspell! ' . &spellfile . '.spl ' . &spellfile
 
 " persistent undo
 set undofile

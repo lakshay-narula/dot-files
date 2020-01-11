@@ -12,7 +12,6 @@ DRFM
 PMUs
 NTP
 PTP
-IMU
 MITM
 RTT
 GEOSLAM
@@ -37,3 +36,6 @@ correlogram
 Murrian
 LaChapelle
 arXiv
+IMU
+ENU
+boresight

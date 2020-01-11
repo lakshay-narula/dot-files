@@ -1,12 +1,22 @@
 set nocompatible              " be iMproved, required
 
 " COLORSCHEME
-colo desert
+colo torte
 
 " Search down into subfolders
 " Provides tab-completion for all file-related tasks
 set path+=**
 set wildignorecase
+
+" file to store custom spellings
+set spellfile=~/.vim-spell-en.utf-8.add
+
+" persistent undo
+set undofile
+set undodir=$HOME/.vim/undo
+
+set undolevels=1000
+set undoreload=10000
 
 " Create the `tags` file (may need to install ctags first)
 command! MakeTags !ctags -R .
@@ -20,6 +30,9 @@ set backspace=indent,eol,start
 " turn off search highlight
 nnoremap <leader><space> :nohlsearch<CR>
 
+" MAINTAIN SCROLLING BUFFER
+set scrolloff=5
+
 " SPACING AND TABS
 filetype plugin indent on   " load filetype-specific indent files
 set tabstop=2
@@ -30,7 +43,6 @@ set smartindent             " indent automatically on new lines
 
 " UI CONFIG
 set number              " show line numbers
-set cursorline          " highlight current line
 set wildmenu            " visual autocomplete for command menu
 set showmatch           " highlight matching [{()}]
 
@@ -68,3 +80,5 @@ let g:bufferline_echo = 0
 autocmd VimEnter *
   \ let &statusline='%{bufferline#refresh_status()}'
     \ .bufferline#get_status_string()
+    \ .'%='
+    \ .'%y %p%% %l:%c'

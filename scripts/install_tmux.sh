@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 # tmux config file
 if [ -e "$HOME/.tmux.conf" ]; then

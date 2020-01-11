@@ -1,3 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
+./scripts/install_zsh.sh
 ./scripts/install_vim.sh
 ./scripts/install_tmux.sh

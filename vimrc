@@ -1,7 +1,7 @@
 set nocompatible              " be iMproved, required
 
 " COLORSCHEME
-colo torte
+colo desert
 
 " Search down into subfolders
 " Provides tab-completion for all file-related tasks

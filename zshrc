@@ -78,6 +78,7 @@ source $ZSH/oh-my-zsh.sh
 # Environment variable for virtualenv
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export WORKON_HOME=~/.virtualenv
+export VIRTUALENVWRAPPER_VIRTUALENV=~/.local/bin/virtualenv
 # Environment variables for compiling TeX
 export BIBINPUTS="./:~/git/pangea/"
 

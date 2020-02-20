@@ -1,7 +1,7 @@
 set nocompatible              " be iMproved, required
 
 " COLORSCHEME
-colo torte
+colo desert
 
 " Search down into subfolders
 " Provides tab-completion for all file-related tasks
@@ -43,6 +43,7 @@ set expandtab               " tabs are spaces
 set smartindent             " indent automatically on new lines
 
 " UI CONFIG
+set nowrap
 set number              " show line numbers
 set wildmenu            " visual autocomplete for command menu
 set showmatch           " highlight matching [{()}]

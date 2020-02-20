@@ -80,6 +80,8 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export WORKON_HOME=~/.virtualenv
 # Environment variables for compiling TeX
 export BIBINPUTS="./:~/git/pangea/"
+# urlview can open URLs in this application
+export BROWSER=`which firefox`
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
